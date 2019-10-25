@@ -1,0 +1,116 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.widget-area, .site-description{
+    display: none;
+}
+#page {
+    @extend .container;
+}
+
+#masthead, #content, #colophon {
+    @extend .row;
+    background:white;
+    @extend .mb-2;
+}
+#masthead{
+    
+    align-items: center;
+    @extend .navbar;  
+    @extend .navbar-dark;
+   background: white;
+    a, a:visited, {
+        color: black;
+    
+    }
+    a:hover{
+        color: #ddd;
+    }
+    
+
+}
+.woocommerce-loop-category__title{
+    a, a:visited, {
+        color: black;
+    
+    }
+    hover{
+        color: #ddd;
+    }
+}
+
+
+a:hover{
+
+    text-decoration: none;
+}
+.site-branding {
+
+    font-size: 2rem;
+padding: 0;
+    @extend .col-md-4;
+    p{
+        margin-bottom: 0;
+    }
+}
+#site-navigation {
+    @extend .col-md-8;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#primary {
+    @extend .col-md-12;
+}
+
+#secondary {
+    // @extend .col-md-0;
+}
+.page_item{
+
+    padding: .5rem 1rem;
+}
+.woocommerce-input-wrapper{
+    @extend .input-group;
+    @extend .input-group-sm;
+    @extend .mb-3;
+}
+ #content{
+    border: 1px solid #a803b2;
+    border-radius: 25px;
+}
+
+.entry-title{
+    font-size: 2rem;
+    margin-left: 2%;
+}
+.site-branding{
+    .custom-logo-link{
+.custom-logo{
+    max-width: 50% !important;
+}}}
+.comments-title, .comment-reply-title{
+    font-size: 1.4rem;
+}
+.comment-metadata{
+    font-size: 0.7rem;
+}
+.product{
+    a{
+        img{
+            
+            border-radius: 25px;  
+        }
+    }
+    h2{
+        color: black;
+    }
+    h2:hover{
+        color: #ddd;
+    }
+}
+.site-info, a:visited{
+    color: black;
+}
